@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let user of users">
+    {{ user.name }}, {{ user.created_at | date:'medium' }}
+  </li>
+</ul>
